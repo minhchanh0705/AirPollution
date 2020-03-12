@@ -53,19 +53,19 @@ const styles = StyleSheet.create({
     container: {
         flexDirection: 'row',
         paddingTop: 20,
-        marginTop: 25
+        marginTop: 25,
     },
     news: {
-        width: 179,
-        height: 209,
-        borderTopLeftRadius: 10,
-        borderTopRightRadius: 10,
+        width:(SCREEN_WIDTH-56)/2,
+        height: (SCREEN_WIDTH-56)/2*1.1676,
+        borderRadius: 10,
         backgroundColor: 'white',
         marginRight: 24,
         marginBottom: 23
     },
     img: {
-        height: 137,
+        height: (SCREEN_WIDTH-56)/2*0.765,
+        borderRadius: 10,
     },
     title: {
         fontFamily: 'SF Pro Text',

@@ -180,7 +180,7 @@ const styles = StyleSheet.create({
         flexDirection: 'row',
         justifyContent: 'space-between',
         alignItems: 'center',
-        paddingHorizontal: 14,
+        paddingHorizontal: 12,
         paddingTop: 12,
         backgroundColor: '#ffffff',
     },
@@ -210,18 +210,18 @@ const styles = StyleSheet.create({
         height: 13
     },
     leftTxt: {
-        marginLeft: 14
+        marginLeft: 5
     },
     txt1: {
         fontFamily: 'SF Pro Text',
         fontWeight: 'bold',
-        fontSize: 15,
+        fontSize: 13,
         lineHeight: 20
     },
     txt2: {
         fontFamily: 'SF Pro Text',
         fontWeight: '500',
-        fontSize: 15,
+        fontSize: 13,
         lineHeight: 20,
         color: '#A2A8B3'
     },
